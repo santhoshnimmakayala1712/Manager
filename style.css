@@ -1,0 +1,264 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#open{
+    background-color: rgb(206, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+    width:570px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 5px;
+}
+#box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:320px;
+    width:530px;
+    border-radius: 7px;
+    box-shadow: 1px 3px 5px rgb(94, 93, 93);
+
+}
+#box h1{
+    margin: 20px;
+}
+#inp{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:10px;
+}
+#ip{
+    width: 70%;
+    height:40px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+}
+#inp button{
+    width:20%;
+    margin-right: 20px;
+    background-color: rgb(112, 112, 233);
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+    font-size: 1.02rem;
+    cursor: pointer;
+}
+#inp button:hover{
+    transform: scale(1.02);
+    background-color: rgb(123, 123, 245);
+    
+}
+#total{
+    display: flex;
+    gap:7px;
+    margin: 20px;
+    margin-bottom: 5px;
+
+}
+#boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+    
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(208, 208, 245);
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.st{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+    font-size: 1.2rem;
+}
+
+.del{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(245, 104, 104);
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: 1.05rem;
+} */
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+#open{
+    background-color:rgb(206, 200, 200);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:350px;
+    width:570px;
+    margin:auto;
+    margin-top:100px;
+    border-radius:5px;
+}
+
+#box{
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    height:320px;
+    width:530px;
+    border-radius:7px;
+    box-shadow:1px 3px 5px rgb(94, 93, 93);
+    padding-bottom:20px;
+}
+
+#box h1{
+    margin:20px;
+}
+
+#inp{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    gap:10px;
+}
+
+#ip{
+    width:70%;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding:5px 10px;
+    margin-left:20px;
+    font-size:16px;
+}
+
+#ip:focus{
+    outline:none;
+    border:2px solid royalblue;
+}
+
+#inp button{
+    width:20%;
+    margin-right:20px;
+    background-color:rgb(112, 112, 233);
+    color:white;
+    font-weight:bold;
+    border:none;
+    border-radius:5px;
+    font-size:1rem;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#inp button:hover{
+    background-color:rgb(123, 123, 245);
+    transform:scale(1.03);
+}
+
+#total{
+    display:flex;
+    gap:7px;
+    margin:20px;
+    margin-bottom:10px;
+}
+
+#boxes{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    max-height:200px;
+    overflow-y:auto;
+    padding-bottom:10px;
+}
+
+/* #boxes::-webkit-scrollbar{
+    width:6px;
+}
+
+#boxes::-webkit-scrollbar-thumb{
+    background:#999;
+    border-radius:10px;
+}
+
+#boxes::-webkit-scrollbar-thumb:hover{
+    background:#666;
+} */
+
+.card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:90%;
+    min-height:45px;
+    background-color:rgb(208, 208, 245);
+    border-radius:5px;
+    padding:10px 15px;
+    margin-top:12px;
+}
+
+.st{
+    display:flex;
+    align-items:center;
+    gap:20px;
+ 
+}
+
+.ser{
+    font-weight:bold;
+    width:30px;
+}
+
+.name{
+    font-size:18px;
+
+}
+
+.del{
+    width:70px;
+    height:30px;
+    background-color:rgb(233, 79, 79);
+    border:none;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.del:hover{
+    background-color:red;
+}
